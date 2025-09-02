@@ -27,3 +27,18 @@ sudo systemctl enable zabbix-agent
 
 ![img2](img/img2.png)
 
+### Задание 2
+
+![img](img/img3.png)
+
+![img](img/img4.png)
+
+![img](img/img5.png)
+
+![img](img/img6.png)
+
+```bash
+git add .
+git commit -m "gotovaya rabota"
+git push
+```
