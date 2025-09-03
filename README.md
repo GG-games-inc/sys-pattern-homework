@@ -38,7 +38,10 @@ sudo systemctl enable zabbix-agent
 ![img](img/img6.png)
 
 ```bash
-git add .
-git commit -m "gotovaya rabota"
-git push
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/
+zabbix-release_6.0-4%2Bdebian11_all.deb 
+dpkg -i zabbix-release_6.0-4+debian11_all.deb 
+sudo apt install zabbix-agent -y
+sudo systemctl restart zabbix-agent 
+sudo systemctl enable zabbix-agent
 ```
